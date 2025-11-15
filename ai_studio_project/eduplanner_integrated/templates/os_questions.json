@@ -1,0 +1,655 @@
+[
+  {
+    "id": 1,
+    "topic": "Processes & Threads",
+    "question": "Which of the following is not a state in the 5-state process model? (Q1)",
+    "options": [
+      "New",
+      "Ready",
+      "Executing",
+      "Waiting",
+      "Suspended"
+    ],
+    "answer": "Suspended",
+    "explanation": "The classical model has New, Ready, Running (Executing), Waiting, Terminated."
+  },
+  {
+    "id": 2,
+    "topic": "Processes & Threads",
+    "question": "Which of the following is not a state in the 5-state process model? (Q2)",
+    "options": [
+      "New",
+      "Ready",
+      "Executing",
+      "Waiting",
+      "Suspended"
+    ],
+    "answer": "Suspended",
+    "explanation": "The classical model has New, Ready, Running (Executing), Waiting, Terminated."
+  },
+  {
+    "id": 3,
+    "topic": "File Systems",
+    "question": "What is an inode in UNIX? (Q3)",
+    "options": [
+      "Index node storing file metadata",
+      "Content of file",
+      "Root directory",
+      "File extension table"
+    ],
+    "answer": "Index node storing file metadata",
+    "explanation": "Inode stores metadata like permissions, timestamps, block pointers, etc."
+  },
+  {
+    "id": 4,
+    "topic": "I/O & Disk Scheduling",
+    "question": "Which disk scheduling algorithm is also called the elevator algorithm? (Q4)",
+    "options": [
+      "FCFS",
+      "SSTF",
+      "SCAN",
+      "C-SCAN"
+    ],
+    "answer": "SCAN",
+    "explanation": "SCAN moves head in one direction servicing requests, then reverses direction."
+  },
+  {
+    "id": 5,
+    "topic": "I/O & Disk Scheduling",
+    "question": "Which disk scheduling algorithm is also called the elevator algorithm? (Q5)",
+    "options": [
+      "FCFS",
+      "SSTF",
+      "SCAN",
+      "C-SCAN"
+    ],
+    "answer": "SCAN",
+    "explanation": "SCAN moves head in one direction servicing requests, then reverses direction."
+  },
+  {
+    "id": 6,
+    "topic": "Advanced Topics",
+    "question": "What is thrashing in virtual memory systems? (Q6)",
+    "options": [
+      "Excessive swapping causing low CPU utilization",
+      "Efficient cache usage",
+      "Disk scheduling overload",
+      "File system corruption"
+    ],
+    "answer": "Excessive swapping causing low CPU utilization",
+    "explanation": "Thrashing occurs when the system spends more time swapping pages than doing useful work."
+  },
+  {
+    "id": 7,
+    "topic": "Protection & Security",
+    "question": "Which mode(s) of execution does a typical OS support? (Q7)",
+    "options": [
+      "User mode only",
+      "Kernel mode only",
+      "User and Kernel mode",
+      "No modes"
+    ],
+    "answer": "User and Kernel mode",
+    "explanation": "Modern OS operates in at least two modes: user mode and kernel (privileged) mode."
+  },
+  {
+    "id": 8,
+    "topic": "Protection & Security",
+    "question": "Which mode(s) of execution does a typical OS support? (Q8)",
+    "options": [
+      "User mode only",
+      "Kernel mode only",
+      "User and Kernel mode",
+      "No modes"
+    ],
+    "answer": "User and Kernel mode",
+    "explanation": "Modern OS operates in at least two modes: user mode and kernel (privileged) mode."
+  },
+  {
+    "id": 9,
+    "topic": "Introduction",
+    "question": "What is the primary function of an operating system? (Q9)",
+    "options": [
+      "To compile programs",
+      "To manage hardware and software resources",
+      "To provide internet services",
+      "To encrypt data"
+    ],
+    "answer": "To manage hardware and software resources",
+    "explanation": "The OS acts as a bridge between applications and hardware, managing resource allocation."
+  },
+  {
+    "id": 10,
+    "topic": "I/O & Disk Scheduling",
+    "question": "Which disk scheduling algorithm is also called the elevator algorithm? (Q10)",
+    "options": [
+      "FCFS",
+      "SSTF",
+      "SCAN",
+      "C-SCAN"
+    ],
+    "answer": "SCAN",
+    "explanation": "SCAN moves head in one direction servicing requests, then reverses direction."
+  },
+  {
+    "id": 11,
+    "topic": "I/O & Disk Scheduling",
+    "question": "Which disk scheduling algorithm is also called the elevator algorithm? (Q11)",
+    "options": [
+      "FCFS",
+      "SSTF",
+      "SCAN",
+      "C-SCAN"
+    ],
+    "answer": "SCAN",
+    "explanation": "SCAN moves head in one direction servicing requests, then reverses direction."
+  },
+  {
+    "id": 12,
+    "topic": "Protection & Security",
+    "question": "Which mode(s) of execution does a typical OS support? (Q12)",
+    "options": [
+      "User mode only",
+      "Kernel mode only",
+      "User and Kernel mode",
+      "No modes"
+    ],
+    "answer": "User and Kernel mode",
+    "explanation": "Modern OS operates in at least two modes: user mode and kernel (privileged) mode."
+  },
+  {
+    "id": 13,
+    "topic": "Virtual Memory & Page Replacement",
+    "question": "Which algorithm may suffer from Belady\u2019s anomaly? (Q13)",
+    "options": [
+      "FIFO",
+      "LRU",
+      "Optimal",
+      "Clock"
+    ],
+    "answer": "FIFO",
+    "explanation": "FIFO can exhibit Belady\u2019s anomaly in some sequences."
+  },
+  {
+    "id": 14,
+    "topic": "Protection & Security",
+    "question": "Which mode(s) of execution does a typical OS support? (Q14)",
+    "options": [
+      "User mode only",
+      "Kernel mode only",
+      "User and Kernel mode",
+      "No modes"
+    ],
+    "answer": "User and Kernel mode",
+    "explanation": "Modern OS operates in at least two modes: user mode and kernel (privileged) mode."
+  },
+  {
+    "id": 15,
+    "topic": "Advanced Topics",
+    "question": "What is thrashing in virtual memory systems? (Q15)",
+    "options": [
+      "Excessive swapping causing low CPU utilization",
+      "Efficient cache usage",
+      "Disk scheduling overload",
+      "File system corruption"
+    ],
+    "answer": "Excessive swapping causing low CPU utilization",
+    "explanation": "Thrashing occurs when the system spends more time swapping pages than doing useful work."
+  },
+  {
+    "id": 16,
+    "topic": "Process Synchronization",
+    "question": "Which of the following is used to solve mutual exclusion? (Q16)",
+    "options": [
+      "Semaphore",
+      "Paging",
+      "Segmentation",
+      "Context Switch"
+    ],
+    "answer": "Semaphore",
+    "explanation": "Semaphores (including binary semaphores / mutex) can enforce mutual exclusion."
+  },
+  {
+    "id": 17,
+    "topic": "Advanced Topics",
+    "question": "What is thrashing in virtual memory systems? (Q17)",
+    "options": [
+      "Excessive swapping causing low CPU utilization",
+      "Efficient cache usage",
+      "Disk scheduling overload",
+      "File system corruption"
+    ],
+    "answer": "Excessive swapping causing low CPU utilization",
+    "explanation": "Thrashing occurs when the system spends more time swapping pages than doing useful work."
+  },
+  {
+    "id": 18,
+    "topic": "Advanced Topics",
+    "question": "What is thrashing in virtual memory systems? (Q18)",
+    "options": [
+      "Excessive swapping causing low CPU utilization",
+      "Efficient cache usage",
+      "Disk scheduling overload",
+      "File system corruption"
+    ],
+    "answer": "Excessive swapping causing low CPU utilization",
+    "explanation": "Thrashing occurs when the system spends more time swapping pages than doing useful work."
+  },
+  {
+    "id": 19,
+    "topic": "Process Scheduling",
+    "question": "Which scheduling algorithm can lead to starvation? (Q19)",
+    "options": [
+      "First Come First Serve",
+      "Round Robin",
+      "Shortest Job First",
+      "Priority Scheduling"
+    ],
+    "answer": "Priority Scheduling",
+    "explanation": "Lower priority processes may wait indefinitely under priority scheduling."
+  },
+  {
+    "id": 20,
+    "topic": "Process Scheduling",
+    "question": "Which scheduling algorithm can lead to starvation? (Q20)",
+    "options": [
+      "First Come First Serve",
+      "Round Robin",
+      "Shortest Job First",
+      "Priority Scheduling"
+    ],
+    "answer": "Priority Scheduling",
+    "explanation": "Lower priority processes may wait indefinitely under priority scheduling."
+  },
+  {
+    "id": 21,
+    "topic": "Virtual Memory & Page Replacement",
+    "question": "Which algorithm may suffer from Belady\u2019s anomaly? (Q21)",
+    "options": [
+      "FIFO",
+      "LRU",
+      "Optimal",
+      "Clock"
+    ],
+    "answer": "FIFO",
+    "explanation": "FIFO can exhibit Belady\u2019s anomaly in some sequences."
+  },
+  {
+    "id": 22,
+    "topic": "Advanced Topics",
+    "question": "What is thrashing in virtual memory systems? (Q22)",
+    "options": [
+      "Excessive swapping causing low CPU utilization",
+      "Efficient cache usage",
+      "Disk scheduling overload",
+      "File system corruption"
+    ],
+    "answer": "Excessive swapping causing low CPU utilization",
+    "explanation": "Thrashing occurs when the system spends more time swapping pages than doing useful work."
+  },
+  {
+    "id": 23,
+    "topic": "Introduction",
+    "question": "What is the primary function of an operating system? (Q23)",
+    "options": [
+      "To compile programs",
+      "To manage hardware and software resources",
+      "To provide internet services",
+      "To encrypt data"
+    ],
+    "answer": "To manage hardware and software resources",
+    "explanation": "The OS acts as a bridge between applications and hardware, managing resource allocation."
+  },
+  {
+    "id": 24,
+    "topic": "Deadlock",
+    "question": "The Banker\u2019s algorithm is used for? (Q24)",
+    "options": [
+      "Disk Scheduling",
+      "Deadlock Avoidance",
+      "Memory Allocation",
+      "File System Management"
+    ],
+    "answer": "Deadlock Avoidance",
+    "explanation": "It ensures safe resource allocation to avoid entering unsafe states."
+  },
+  {
+    "id": 25,
+    "topic": "Protection & Security",
+    "question": "Which mode(s) of execution does a typical OS support? (Q25)",
+    "options": [
+      "User mode only",
+      "Kernel mode only",
+      "User and Kernel mode",
+      "No modes"
+    ],
+    "answer": "User and Kernel mode",
+    "explanation": "Modern OS operates in at least two modes: user mode and kernel (privileged) mode."
+  },
+  {
+    "id": 26,
+    "topic": "Deadlock",
+    "question": "The Banker\u2019s algorithm is used for? (Q26)",
+    "options": [
+      "Disk Scheduling",
+      "Deadlock Avoidance",
+      "Memory Allocation",
+      "File System Management"
+    ],
+    "answer": "Deadlock Avoidance",
+    "explanation": "It ensures safe resource allocation to avoid entering unsafe states."
+  },
+  {
+    "id": 27,
+    "topic": "Protection & Security",
+    "question": "Which mode(s) of execution does a typical OS support? (Q27)",
+    "options": [
+      "User mode only",
+      "Kernel mode only",
+      "User and Kernel mode",
+      "No modes"
+    ],
+    "answer": "User and Kernel mode",
+    "explanation": "Modern OS operates in at least two modes: user mode and kernel (privileged) mode."
+  },
+  {
+    "id": 28,
+    "topic": "Protection & Security",
+    "question": "Which mode(s) of execution does a typical OS support? (Q28)",
+    "options": [
+      "User mode only",
+      "Kernel mode only",
+      "User and Kernel mode",
+      "No modes"
+    ],
+    "answer": "User and Kernel mode",
+    "explanation": "Modern OS operates in at least two modes: user mode and kernel (privileged) mode."
+  },
+  {
+    "id": 29,
+    "topic": "Process Scheduling",
+    "question": "Which scheduling algorithm can lead to starvation? (Q29)",
+    "options": [
+      "First Come First Serve",
+      "Round Robin",
+      "Shortest Job First",
+      "Priority Scheduling"
+    ],
+    "answer": "Priority Scheduling",
+    "explanation": "Lower priority processes may wait indefinitely under priority scheduling."
+  },
+  {
+    "id": 30,
+    "topic": "Introduction",
+    "question": "What is the primary function of an operating system? (Q30)",
+    "options": [
+      "To compile programs",
+      "To manage hardware and software resources",
+      "To provide internet services",
+      "To encrypt data"
+    ],
+    "answer": "To manage hardware and software resources",
+    "explanation": "The OS acts as a bridge between applications and hardware, managing resource allocation."
+  },
+  {
+    "id": 31,
+    "topic": "Deadlock",
+    "question": "The Banker\u2019s algorithm is used for? (Q31)",
+    "options": [
+      "Disk Scheduling",
+      "Deadlock Avoidance",
+      "Memory Allocation",
+      "File System Management"
+    ],
+    "answer": "Deadlock Avoidance",
+    "explanation": "It ensures safe resource allocation to avoid entering unsafe states."
+  },
+  {
+    "id": 32,
+    "topic": "File Systems",
+    "question": "What is an inode in UNIX? (Q32)",
+    "options": [
+      "Index node storing file metadata",
+      "Content of file",
+      "Root directory",
+      "File extension table"
+    ],
+    "answer": "Index node storing file metadata",
+    "explanation": "Inode stores metadata like permissions, timestamps, block pointers, etc."
+  },
+  {
+    "id": 33,
+    "topic": "Introduction",
+    "question": "What is the primary function of an operating system? (Q33)",
+    "options": [
+      "To compile programs",
+      "To manage hardware and software resources",
+      "To provide internet services",
+      "To encrypt data"
+    ],
+    "answer": "To manage hardware and software resources",
+    "explanation": "The OS acts as a bridge between applications and hardware, managing resource allocation."
+  },
+  {
+    "id": 34,
+    "topic": "Virtual Memory & Page Replacement",
+    "question": "Which algorithm may suffer from Belady\u2019s anomaly? (Q34)",
+    "options": [
+      "FIFO",
+      "LRU",
+      "Optimal",
+      "Clock"
+    ],
+    "answer": "FIFO",
+    "explanation": "FIFO can exhibit Belady\u2019s anomaly in some sequences."
+  },
+  {
+    "id": 35,
+    "topic": "Deadlock",
+    "question": "The Banker\u2019s algorithm is used for? (Q35)",
+    "options": [
+      "Disk Scheduling",
+      "Deadlock Avoidance",
+      "Memory Allocation",
+      "File System Management"
+    ],
+    "answer": "Deadlock Avoidance",
+    "explanation": "It ensures safe resource allocation to avoid entering unsafe states."
+  },
+  {
+    "id": 36,
+    "topic": "Protection & Security",
+    "question": "Which mode(s) of execution does a typical OS support? (Q36)",
+    "options": [
+      "User mode only",
+      "Kernel mode only",
+      "User and Kernel mode",
+      "No modes"
+    ],
+    "answer": "User and Kernel mode",
+    "explanation": "Modern OS operates in at least two modes: user mode and kernel (privileged) mode."
+  },
+  {
+    "id": 37,
+    "topic": "Processes & Threads",
+    "question": "Which of the following is not a state in the 5-state process model? (Q37)",
+    "options": [
+      "New",
+      "Ready",
+      "Executing",
+      "Waiting",
+      "Suspended"
+    ],
+    "answer": "Suspended",
+    "explanation": "The classical model has New, Ready, Running (Executing), Waiting, Terminated."
+  },
+  {
+    "id": 38,
+    "topic": "I/O & Disk Scheduling",
+    "question": "Which disk scheduling algorithm is also called the elevator algorithm? (Q38)",
+    "options": [
+      "FCFS",
+      "SSTF",
+      "SCAN",
+      "C-SCAN"
+    ],
+    "answer": "SCAN",
+    "explanation": "SCAN moves head in one direction servicing requests, then reverses direction."
+  },
+  {
+    "id": 39,
+    "topic": "Memory Management",
+    "question": "What is internal fragmentation? (Q39)",
+    "options": [
+      "Wasted memory inside an allocated block",
+      "Wasted memory between blocks",
+      "Exceeding memory bounds",
+      "Memory leak"
+    ],
+    "answer": "Wasted memory inside an allocated block",
+    "explanation": "If allocated block > needed size, the unused part inside is internal fragmentation."
+  },
+  {
+    "id": 40,
+    "topic": "Process Synchronization",
+    "question": "Which of the following is used to solve mutual exclusion? (Q40)",
+    "options": [
+      "Semaphore",
+      "Paging",
+      "Segmentation",
+      "Context Switch"
+    ],
+    "answer": "Semaphore",
+    "explanation": "Semaphores (including binary semaphores / mutex) can enforce mutual exclusion."
+  },
+  {
+    "id": 41,
+    "topic": "Virtual Memory & Page Replacement",
+    "question": "Which algorithm may suffer from Belady\u2019s anomaly? (Q41)",
+    "options": [
+      "FIFO",
+      "LRU",
+      "Optimal",
+      "Clock"
+    ],
+    "answer": "FIFO",
+    "explanation": "FIFO can exhibit Belady\u2019s anomaly in some sequences."
+  },
+  {
+    "id": 42,
+    "topic": "Process Synchronization",
+    "question": "Which of the following is used to solve mutual exclusion? (Q42)",
+    "options": [
+      "Semaphore",
+      "Paging",
+      "Segmentation",
+      "Context Switch"
+    ],
+    "answer": "Semaphore",
+    "explanation": "Semaphores (including binary semaphores / mutex) can enforce mutual exclusion."
+  },
+  {
+    "id": 43,
+    "topic": "I/O & Disk Scheduling",
+    "question": "Which disk scheduling algorithm is also called the elevator algorithm? (Q43)",
+    "options": [
+      "FCFS",
+      "SSTF",
+      "SCAN",
+      "C-SCAN"
+    ],
+    "answer": "SCAN",
+    "explanation": "SCAN moves head in one direction servicing requests, then reverses direction."
+  },
+  {
+    "id": 44,
+    "topic": "Deadlock",
+    "question": "The Banker\u2019s algorithm is used for? (Q44)",
+    "options": [
+      "Disk Scheduling",
+      "Deadlock Avoidance",
+      "Memory Allocation",
+      "File System Management"
+    ],
+    "answer": "Deadlock Avoidance",
+    "explanation": "It ensures safe resource allocation to avoid entering unsafe states."
+  },
+  {
+    "id": 45,
+    "topic": "Advanced Topics",
+    "question": "What is thrashing in virtual memory systems? (Q45)",
+    "options": [
+      "Excessive swapping causing low CPU utilization",
+      "Efficient cache usage",
+      "Disk scheduling overload",
+      "File system corruption"
+    ],
+    "answer": "Excessive swapping causing low CPU utilization",
+    "explanation": "Thrashing occurs when the system spends more time swapping pages than doing useful work."
+  },
+  {
+    "id": 46,
+    "topic": "Deadlock",
+    "question": "The Banker\u2019s algorithm is used for? (Q46)",
+    "options": [
+      "Disk Scheduling",
+      "Deadlock Avoidance",
+      "Memory Allocation",
+      "File System Management"
+    ],
+    "answer": "Deadlock Avoidance",
+    "explanation": "It ensures safe resource allocation to avoid entering unsafe states."
+  },
+  {
+    "id": 47,
+    "topic": "I/O & Disk Scheduling",
+    "question": "Which disk scheduling algorithm is also called the elevator algorithm? (Q47)",
+    "options": [
+      "FCFS",
+      "SSTF",
+      "SCAN",
+      "C-SCAN"
+    ],
+    "answer": "SCAN",
+    "explanation": "SCAN moves head in one direction servicing requests, then reverses direction."
+  },
+  {
+    "id": 48,
+    "topic": "Advanced Topics",
+    "question": "What is thrashing in virtual memory systems? (Q48)",
+    "options": [
+      "Excessive swapping causing low CPU utilization",
+      "Efficient cache usage",
+      "Disk scheduling overload",
+      "File system corruption"
+    ],
+    "answer": "Excessive swapping causing low CPU utilization",
+    "explanation": "Thrashing occurs when the system spends more time swapping pages than doing useful work."
+  },
+  {
+    "id": 49,
+    "topic": "Protection & Security",
+    "question": "Which mode(s) of execution does a typical OS support? (Q49)",
+    "options": [
+      "User mode only",
+      "Kernel mode only",
+      "User and Kernel mode",
+      "No modes"
+    ],
+    "answer": "User and Kernel mode",
+    "explanation": "Modern OS operates in at least two modes: user mode and kernel (privileged) mode."
+  },
+  {
+    "id": 50,
+    "topic": "Memory Management",
+    "question": "What is internal fragmentation? (Q50)",
+    "options": [
+      "Wasted memory inside an allocated block",
+      "Wasted memory between blocks",
+      "Exceeding memory bounds",
+      "Memory leak"
+    ],
+    "answer": "Wasted memory inside an allocated block",
+    "explanation": "If allocated block > needed size, the unused part inside is internal fragmentation."
+  }
+]

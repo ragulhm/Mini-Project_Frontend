@@ -1,0 +1,16 @@
+
+{
+    "name": "Operating Systems",
+    "skill_nodes": [
+        "Process Management",
+        "Memory Management",
+        "File Systems",
+        "I/O and Device Management",
+        "OS Security and Synchronization"
+    ],
+    "generator_prompt": "Generate a detailed 1-week Operating Systems lesson plan based on the student's skill tree. Include daily objectives, key topics, examples, and practice questions.",
+    "quiz_topics": [
+        "Process Management",
+        "Memory Management"
+    ]
+}

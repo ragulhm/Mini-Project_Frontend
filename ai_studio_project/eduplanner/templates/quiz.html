@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EduPlanner - Adaptive Quiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h2 class="text-center mb-4 text-primary">🔍 Adaptive Quiz: Concept Check</h2>
+                <div class="card shadow-lg">
+                    <div class="card-header bg-info text-white">
+                        Answer the following concept-check questions based on the lesson plan you just reviewed.
+                    </div>
+                    <div class="card-body">
+                        <form method="POST">
+                            {% for question in questions %}
+                                <div class="mb-4">
+                                    <label for="q{{ loop.index0 }}" class="form-label fw-bold">Q{{ loop.index }}: {{ question.question }}</label>
+                                    <textarea class="form-control" id="q{{ loop.index0 }}" name="q{{ loop.index0 }}" rows="3" required></textarea>
+                                </div>
+                            {% endfor %}
+                            <div class="d-grid mt-4">
+                                <button type="submit" class="btn btn-success btn-lg">Submit Answers & Finalize Plan</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

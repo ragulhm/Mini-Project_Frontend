@@ -1,0 +1,136 @@
+[
+  {
+    "id": 1,
+    "topic": "Processes & Threads",
+    "question": "Which of the following is not a state in the 5-state process model? (Q1)",
+    "options": [
+      "New",
+      "Ready",
+      "Executing",
+      "Waiting",
+      "Suspended"
+    ],
+    "answer": "Suspended",
+    "explanation": "The classical model has New, Ready, Running (Executing), Waiting, Terminated."
+  },
+  {
+    "id": 2,
+    "topic": "Processes & Threads",
+    "question": "Which of the following is not a state in the 5-state process model? (Q2)",
+    "options": [
+      "New",
+      "Ready",
+      "Executing",
+      "Waiting",
+      "Suspended"
+    ],
+    "answer": "Suspended",
+    "explanation": "The classical model has New, Ready, Running (Executing), Waiting, Terminated."
+  },
+  {
+    "id": 3,
+    "topic": "File Systems",
+    "question": "What is an inode in UNIX? (Q3)",
+    "options": [
+      "Index node storing file metadata",
+      "Content of file",
+      "Root directory",
+      "File extension table"
+    ],
+    "answer": "Index node storing file metadata",
+    "explanation": "Inode stores metadata like permissions, timestamps, block pointers, etc."
+  },
+  {
+    "id": 4,
+    "topic": "I/O & Disk Scheduling",
+    "question": "Which disk scheduling algorithm is also called the elevator algorithm? (Q4)",
+    "options": [
+      "FCFS",
+      "SSTF",
+      "SCAN",
+      "C-SCAN"
+    ],
+    "answer": "SCAN",
+    "explanation": "SCAN moves head in one direction servicing requests, then reverses direction."
+  },
+  {
+    "id": 5,
+    "topic": "I/O & Disk Scheduling",
+    "question": "Which disk scheduling algorithm is also called the elevator algorithm? (Q5)",
+    "options": [
+      "FCFS",
+      "SSTF",
+      "SCAN",
+      "C-SCAN"
+    ],
+    "answer": "SCAN",
+    "explanation": "SCAN moves head in one direction servicing requests, then reverses direction."
+  },
+  {
+    "id": 6,
+    "topic": "Advanced Topics",
+    "question": "What is thrashing in virtual memory systems? (Q6)",
+    "options": [
+      "Excessive swapping causing low CPU utilization",
+      "Efficient cache usage",
+      "Disk scheduling overload",
+      "File system corruption"
+    ],
+    "answer": "Excessive swapping causing low CPU utilization",
+    "explanation": "Thrashing occurs when the system spends more time swapping pages than doing useful work."
+  },
+  {
+    "id": 7,
+    "topic": "Protection & Security",
+    "question": "Which mode(s) of execution does a typical OS support? (Q7)",
+    "options": [
+      "User mode only",
+      "Kernel mode only",
+      "User and Kernel mode",
+      "No modes"
+    ],
+    "answer": "User and Kernel mode",
+    "explanation": "Modern OS operates in at least two modes: user mode and kernel (privileged) mode."
+  },
+  {
+    "id": 8,
+    "topic": "Protection & Security",
+    "question": "Which mode(s) of execution does a typical OS support? (Q8)",
+    "options": [
+      "User mode only",
+      "Kernel mode only",
+      "User and Kernel mode",
+      "No modes"
+    ],
+    "answer": "User and Kernel mode",
+    "explanation": "Modern OS operates in at least two modes: user mode and kernel (privileged) mode."
+  },
+  {
+    "id": 9,
+    "topic": "Introduction",
+    "question": "What is the primary function of an operating system? (Q9)",
+    "options": [
+      "To compile programs",
+      "To manage hardware and software resources",
+      "To provide internet services",
+      "To encrypt data"
+    ],
+    "answer": "To manage hardware and software resources",
+    "explanation": "The OS acts as a bridge between applications and hardware, managing resource allocation."
+  },
+  {
+    "id": 10,
+    "topic": "I/O & Disk Scheduling",
+    "question": "Which disk scheduling algorithm is also called the elevator algorithm? (Q10)",
+    "options": [
+      "FCFS",
+      "SSTF",
+      "SCAN",
+      "C-SCAN"
+    ],
+    "answer": "SCAN",
+    "explanation": "SCAN moves head in one direction servicing requests, then reverses direction."
+  }
+   
+  
+]

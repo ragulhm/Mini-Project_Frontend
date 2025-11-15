@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EduPlanner - Final Plan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .skill-list { list-style: none; padding-left: 0; }
+        .skill-list li { margin-bottom: 5px; font-family: monospace; }
+        .lesson-content { white-space: pre-wrap; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    </style>
+</head>
+<body class="bg-white">
+    <div class="container my-5">
+        <h1 class="text-center mb-5 text-success">🎉 EduPlanner Module Complete</h1>
+        <div class="row">
+            <!-- Summary Column -->
+            <div class="col-md-4">
+                <div class="card mb-4 border-success shadow">
+                    <div class="card-header bg-success text-white">
+                        <h5 class="mb-0">Final Summary</h5>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Status:</strong> <span class="badge bg-primary">{{ status }}</span></p>
+                        <p><strong>Final Plan Score (CIDDP):</strong> {{ score }}/10.0</p>
+                        <p><strong>Quiz Performance:</strong> {{ accuracy }}%</p>
+                        <p class="mt-3"><strong>Next Step:</strong> {{ next_step }}</p>
+                    </div>
+                </div>
+                
+                <div class="card border-info shadow">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="mb-0">Updated Skill-Tree</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="skill-list">
+                            {% for skill, score in skill_tree.items() %}
+                                <li><strong>{{ skill }}:</strong> {{ score }}/5</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Plan Column -->
+            <div class="col-md-8">
+                <div class="card shadow-lg">
+                    <div class="card-header bg-dark text-white">
+                        <h5 class="mb-0">Optimized Lesson Plan</h5>
+                    </div>
+                    <div class="card-body lesson-content">
+                        {{ lesson_plan }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
